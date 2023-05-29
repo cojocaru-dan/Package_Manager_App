@@ -1,100 +1,64 @@
 {
-	"packages": [
-		{
-			"id": 1,
-			"name": "npm",
-			"description": "",
-			"dependencies": [],
-			"releases": [
-				{
-					"date": "2022-06-01",
-					"version": "8.12.0"
-				},
-				{
-					"date": "2022-05-25",
-					"version": "8.11.0"
-				}
-			]
-		},
-		{
-			"id": 2,
-			"name": "express",
-			"description": "",
-			"dependencies": [1],
-			"releases": [
-				{
-					"date": "2022-06-02",
-					"version": "4.19.0"
-				},
-				{
-					"date": "2022-05-02",
-					"version": "4.18.1"
-				}
-			]
-		},
-		{
-			"id": 3,
-			"name": "busboy",
-			"description": "",
-			"dependencies": [1],
-			"releases": [
-				{
-					"date": "2022-06-02",
-					"version": "4.18.0"
-				},
-				{
-					"date": "2022-05-02",
-					"version": "4.18.1"
-				}
-			]
-		},
-		{
-			"id": 4,
-			"name": "express-fileupload",
-			"description": "",
-			"dependencies": [2,3],
-			"releases": [
-				{
-					"date": "2022-06-03",
-					"version": "1.4.1"
-				},
-				{
-					"date": "2022-05-02",
-					"version": "1.4.0"
-				}
-			]
-		},
-		{
-			"id": 5,
-			"name": "express-image-handler",
-			"description": "",
-			"dependencies": [2,3],
-			"releases": [
-				{
-					"date": "2022-04-03",
-					"version": "0.3.1"
-				},
-				{
-					"date": "2021-04-02",
-					"version": "0.3.0"
-				}
-			]
-		},
-		{
-			"id": 6,
-			"name": "enzyme",
-			"description": "",
-			"dependencies": [1],
-			"releases": [
-				{
-					"date": "2021-05-02",
-					"version": "14.8.2"
-				},
-				{
-					"date": "2021-04-02",
-					"version": "14.8.1"
-				}
-			]
-		}
-	]
+  "packages": [
+    {
+      "id": 1,
+      "name": "npm",
+      "description": "",
+      "dependencies": [],
+      "releases": [
+        { "date": "2022-06-01", "version": "8.12.0" },
+        { "date": "2022-05-25", "version": "8.11.0" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "express",
+      "description": "",
+      "dependencies": [1],
+      "releases": [
+        { "date": "2022-06-02", "version": "4.19.0" },
+        { "date": "2022-05-02", "version": "4.18.1" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "busboy",
+      "description": "",
+      "dependencies": [1],
+      "releases": [
+        { "date": "2022-06-02", "version": "4.18.0" },
+        { "date": "2022-05-02", "version": "4.18.1" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "express-fileupload",
+      "description": "",
+      "dependencies": [2, 3],
+      "releases": [
+        { "date": "2022-06-03", "version": "1.4.1" },
+        { "date": "2022-05-02", "version": "1.4.0" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "express-image-handler",
+      "description": "",
+      "dependencies": [2, 3],
+      "releases": [
+        { "date": "2022-04-03", "version": "0.3.1" },
+        { "date": "2021-04-02", "version": "0.3.0" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "enzyme",
+      "description": "",
+      "dependencies": [1],
+      "releases": [
+        { "date": "2021-05-02", "version": "14.8.2" },
+        { "date": "2021-04-02", "version": "14.8.1" }
+      ]
+    }
+  ]
 }
